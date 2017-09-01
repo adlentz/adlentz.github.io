@@ -1,0 +1,10 @@
+modalID: 6
+title: SQL Queries on CMS' 2010 Medicare Beneficiary Data
+subtitle: Utilizing Python's psycopg2 package to create thoughtful SQL queries.
+date: 2016-11-30
+img: sql.png
+preview: sql-preview.png
+client: University of San Francisco
+clientLink: "//usfca.edu/nursing"
+category: PostgreSQL Analysis
+description: The purpose of this project was to create useful SQL queries for analyzing CMS’ 2010 Medicare Beneficiary data. This includes an ipython notebook, as well as a python script that utilizes the psycopg2 Python package to connect to the SQL database, and create and execute SQL queries within Python. <br><br>You can view my github repository for this project at the following [link](//github.com/adlentz/sql-cms). 

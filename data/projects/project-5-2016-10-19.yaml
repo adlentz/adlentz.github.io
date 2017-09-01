@@ -1,0 +1,10 @@
+modalID: 4
+title: Parsing an HL7 Message to Save to MongoDB
+subtitle: Working with health data standards to create interoperable systems.
+date: 2016-10-19
+img: hl7.png
+preview: hl7-preview.png
+client: University of San Francisco
+clientLink: "//usfca.edu/nursing"
+category: Health Data Standards
+description: The purpose of this project was to parse an existing HL7 message into a JSON-LD document suitable for persisting into MongoDB. This involved writing 2 functions that utilized the hl7apy and pymongo Python packages to replace the key data organization functionality. <br><br>You can view my github repository for this project at the following [link](//github.com/adlentz/parsehl7-to-mongodb). 

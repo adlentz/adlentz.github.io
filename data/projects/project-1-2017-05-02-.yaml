@@ -1,0 +1,10 @@
+modalID: 1
+title: Master's Project <br> Data Pipeline for Prospect Bio
+subtitle: Utilizing Biopython tools and GFF3 sequence file formats
+date: 2017-05-02
+img: mastersproj.png
+preview: mastersproj-preview.png
+client: Prospect Bio
+clientLink: "//prospect.bio"
+category: Bioinformatics Engineering
+description: Managed and organized Prospect Bio's DNA libraries from metagenomic DNA samples that have been previously sequenced and assembled. Utilized python and bioinformatics tools in order to associate these assembled contigs with clones in the library and build an extensible framework for adding future annotation information including gene models. <br><br>**You can view the final presentation [here](//docs.google.com/presentation/d/1J7HlpgCJUiMN4OJXsd40f0k15BaYALa-MZDwHSWIJEM/pub?start=false&loop=false&delayms=3000).**

@@ -1,0 +1,244 @@
+# Site settings
+baseurl = "https://adlentz.github.io/"
+languageCode = "en-us"
+title = "Alyson Lentz"
+theme = "hugo-agency-theme"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Alyson Lentz"
+  description = "Data Science Portfolio for Alyson Lentz"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "Alyson Lentz"
+    # Optional logo as brand stored in img/
+    #logo = "logo.svg"
+    about = "About"
+    services = "Work Experience"
+    portfolio = "Portfolio"
+    #team = "Team"
+    contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "Alyson Lentz"
+    subtitle = "Health Informatics Graduate // Data Engineer // Baking Enthusiast"
+    buttonText = "Resume"
+
+
+    # About section
+  [params.about]
+    enable = true
+    title = "About"
+
+    subtitle = "**Alyson is motivated by the belief** that data and technology can be utilized more efficiently within healthcare to improve patient outcomes and overall quality of care. She would like to make an impact on improving the way data is accessed and used for research in healthcare, as well as at the point of care in order to make processes more efficient and accurate for both practitioners and patients.\n\nAs a recent graduate with a **master’s degree in health informatics**, she is looking to break into a data science/engineering career that has a positive impact on the healthcare industry. Within her master’s program, she has explored a variety of aspects of data science. These have included projects in machine learning, bioinformatics analysis, and mobile application development.\n\nShe has a **wide range of work experience** from customer service to wet lab work, as well as research and data engineering experience."
+
+  [[params.about.skills]]
+    name = "Communication"
+      value = 10
+
+  [[params.about.skills]]
+    name = "Organization"
+      value = 9
+
+  [[params.about.skills]]
+    name = "Team Work"
+      value = 9
+
+  [[params.about.skills]]
+    name = "Learning"
+      value = 10
+
+  [[params.about.skills]]
+    name = "Python"
+      value = 8
+
+  [[params.about.skills]]
+    name = "PostgreSQL"
+      value = 5
+
+  [[params.about.skills]]
+    name = "JavaScript/HTML"
+      value = 6
+
+  [[params.about.skills]]
+    name = "Bioinformatics Analysis"
+      value = 7
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Work Experience"
+    #subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      title = "Prospect Bio\n\n*Bioinformatics Intern*"
+      description = "Created a data pipeline on AWS to organize and annotate sequence data for environmental DNA libraries with 1 million processed DNA sequences. Utilized python and bioinformatics tools, including BLAST to add taxonomy and sequence alignment features to the annotated DNA libraries. Created a database of clone sequences that can be queried by the scientists to find important sequence information for their analyses."
+      url = "//prospect.bio"
+      logo = "prospectbio.jpg"
+
+    [[params.services.row.list]]
+      title = "Mindlight Medical\n\n*Mobile App Developer*"
+      description = "Worked through the development process for creating a mobile application from design to a completed iOS and hybrid prototype. Utilized Swift, as well as Ionic/Cordova to create a seamless application to be used by clinicians and athletic trainers in a concussion research study. This application includes pages for entering new patient information, a concussion survey, and connecting to a bluetooth EEG device."
+      url = "//mindlightmedical.org"
+      logo = "mindlight.jpg"
+
+    [[params.services.row.list]]
+      title = "Eurofins DQCI\n\n*Laboratory Technician III*"
+      description = "Carried out laboratory work for state-certified dairy products in the mid-west region of the United States. Trained in Delvo and Charm II antibiotic analysis, milk pregnancy and Paratuberculosis ELISA testing, LIMS data entry, as well as bacterial, protein, and component testing on dairy products."
+      url = "//dqci.com"
+      logo = "eurofins.jpg"
+
+    [[params.services.row.list]]
+      title = "Centre for Brain and Cognitive Development\n\n*Research Intern*"
+      description = "Worked as a research assistant for a concentration training study in infants by looking at videoed testing sessions, eyetracker, EEG, and NIRS data. Helped with running the infant testing sessions, video coding of these sessions, and statistical analysis."
+      url = "cbcd.bbk.ac.uk/"
+      logo = "birkbeck.jpg"
+
+  # Portfolio section
+  [params.portfolio]
+    enable = true
+
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Portfolio"
+    subtitle = "Digital Health and Bioinformatics projects."
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contact"
+    subtitle  = "alysond.lentz@gmail.com"
+    phone  = "(952)-380-7436"
+    buttonText = "Send message"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    email = "alysond.lentz@gmail.com"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
+
+    [params.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
+
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
+
+    [params.contact.form.message]
+      text = "Your Message *"
+      warning = "Please enter a message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = true
+
+    [[params.footer.social]]
+      icon = "fa-github"
+      link = "//github.com/adlentz?tab=repositories"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "//linkedin.com/in/alyson-lentz-b7352849/"
+
+    [[params.footer.social]]
+      icon = "fa-angellist"
+      link = "//angel.co/alyson-lentz-1?public_profile=1"

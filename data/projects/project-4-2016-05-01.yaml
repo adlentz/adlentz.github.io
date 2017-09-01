@@ -1,0 +1,10 @@
+modalID: 5
+title: Feature Selection and Classification of CHF Patients
+subtitle: Comparison of feature selection and classification methods on an existing CHF dataset.
+date: 2016-05-01
+img: classifier.png
+preview: classifier-preview.png
+client: University of San Francisco
+clientLink: "//usfca.edu/nursing"
+category: Machine Learning
+description: This project involved a comparative analysis of the feature selection and classification tools within python's sklearn. This involved running KBest, RFE, and Chi2 feature selection on all of the features within an existing dataset. The outputs of these feature selection methods were analyzed and then the selected features were fed into a variety of classifiers to determine which classifier was the most efficient for classifying CHF from non-CHF patients based on the existing dataset. <br><br>You can view my github repository for this project at the following [link](//github.com/adlentz/selection-classification).

@@ -1,0 +1,10 @@
+modalID: 2
+title: Mindlight Mobile Application
+subtitle: Hybrid mobile app from design through development.
+date: 2016-08-31
+img: mindlight.png
+preview: mindlight-preview.png
+client: Mindlight - USF
+clientLink: "//mindlightmedical.org"
+category: Mobile App Development
+description: "Created a hybrid mobile application in Ionic/Cordova using JavaScript and HTML from the design process through development. Implemented login/authentication, a variety of screen views for patient surveys, Bluetooth to connect to an EEG headset, and save functionality within the application to be employed within a larger research study. <br><br>**You can preview the prototype [here](//invis.io/36BYMOHB2).**"
